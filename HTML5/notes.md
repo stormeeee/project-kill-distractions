@@ -36,3 +36,14 @@ This is a horizontal rule
 ## HTML Entities
 + There are some special symbols which the browser might not print directly, to print them, we need to have a special code that the browser understands.
 + These special codes, that represent a symbol are called as HTML Entitites.
+
+## Lists
++ To create a list item `<li> </li>` element is used.
++ To create a bulleted list `<ul> </ul>` element is used.
++ To create a ordered/numbered list `<ol> </ol>` element is used.
++ To create a description list:
+  ```html
+  <dl>
+    <dt> </dt>  // description term
+    <dd> </dd>  // description list 
+  </dl>
